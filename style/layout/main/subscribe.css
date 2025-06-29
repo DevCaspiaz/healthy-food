@@ -1,0 +1,83 @@
+@import "../../base.css";
+
+.subscribe{
+    margin: 10rem 13.5rem;
+    padding: 4.8rem 20rem 9.8rem;
+    min-height: 55.2rem;
+    background-image: url("/healty-food/img/subscribe/Frame\ 51.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.subscribe__text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.subscribe__text-header{
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 180%;
+    letter-spacing: -2%;
+    color: var(--marker-color);
+}
+.subscribe__text-title{
+    font-size: 4.8rem;
+    font-weight: 600;
+    line-height: 140%;
+    letter-spacing: -2%;
+    color: var(--header-2);
+    margin-bottom: 2.4rem;
+}
+
+.subscribe__text-paragraph{
+    max-width: 46.2rem;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 160%;
+    letter-spacing: -2%;
+    color: var(--header-1);
+}
+
+.subscribe__submit form {
+    position: relative;
+    align-items: center;
+}
+
+.subscribe__submit input[type="email"]{
+    width: 100%;
+    position: relative;
+    border-radius: 10rem;
+    padding: 2rem .8rem 2rem 3.1rem;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    transition: all .3s;
+}
+.subscribe__submit input::placeholder{
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: -2%;
+    color: var(--header-2);
+    outline: none;
+}
+.subscribe__submit input:focus{
+    outline: none;
+    transform: scale(1.05);
+}
+.subscribe__submit button[type="submit"]{
+    position: absolute;
+    top: 0;
+    right: 0;
+    transition: transform .3s;
+}
+.subscribe__submit input:focus ~ button[type="submit"]{
+    transform: translateX(1.5rem);
+}
+

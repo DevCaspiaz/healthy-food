@@ -1,6 +1,6 @@
 @import "../../base.css";
 .hero{
-    padding: 10rem 13.5rem;
+    padding: 0 13.5rem 10rem;
     display: flex;
     gap: 1.5rem;
 }

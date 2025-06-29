@@ -3,4 +3,7 @@
 @import "./layout/header.css";
 @import "./layout/main/hero-section.css";
 @import "./layout/main/menu-products.css";
+@import "./layout/main/why-choose-us.css";
+@import "./layout/main/info-us.css";
+@import "./layout/main/subscribe.css";
 @import "./layout/footer.css";

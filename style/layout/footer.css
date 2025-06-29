@@ -1,1 +1,118 @@
 @import "../base.css";
+
+footer{
+    padding: 5rem 13.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-title{
+    color: var(--marker-color);
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 2.2rem;
+}
+footer .copyright{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 21.2rem;
+}
+.copyright__title{
+    display: flex;
+    gap: .5rem;
+    h3{
+        font-weight: 900;
+        font-size: 2.4rem;
+        line-height: 100%;
+        letter-spacing: 0%;
+    }
+}
+.copyright__title h3:last-of-type{
+    color: var(--header-2);
+}
+.copyright__paragraph{
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: 0%;
+    color: var(--header-1);
+}
+.copyright__name{
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%;
+    color: var(--title-color);
+}
+
+.footer-menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2.5rem;
+}
+
+.footer-menu ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2.5rem;
+}
+.footer-menu ul li a{
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 150%;
+    color: var(--header-1);
+    letter-spacing: 0%;
+    display: block;
+    width: 100%;
+    transition: all .3s;
+}
+.footer-menu ul li a:hover{
+    color: var(--marker-color);
+    transform: translateX(.5rem);
+}
+
+.address-info h3{
+    margin-bottom: 2.3rem;
+}
+.address-info .address-info__items{
+    display: flex;
+    flex-direction: column;
+    gap: 2.3rem;
+}
+.address-info__items-line{
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+    p{
+        font-weight: 400;
+        font-size: 1.6rem;
+        line-height: 150%;
+        letter-spacing: 0%;
+        color: var(--header-1);
+    }
+    img{
+        width: 2.4rem;
+        height: 2.4rem;
+    }
+}
+
+.social-media__icons{
+    margin-bottom: 2.4rem;
+    display: flex;
+    justify-content: flex-start;
+    gap: 3.2rem;
+}
+.social-media__icons a img{
+    width: 2.6rem;
+    height: 2.4rem;
+}
+.social-media__text{
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 150%;
+    letter-spacing: 0%;
+    color: var(--header-1);
+}
