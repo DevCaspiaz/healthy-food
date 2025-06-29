@@ -1,0 +1,24 @@
+@import "../base.css";
+
+.primary-btn{
+    width: max-content;
+    font-size: 1.6rem;
+    color: var(--white);
+    font-weight: 600;
+    line-height: 130%;
+    letter-spacing: 0%;
+    padding: 1.65rem 4.7rem;
+    background-color: var(--marker-color);
+    border-radius: 100px;
+    border: none;
+    cursor: pointer;
+    transition: background-color .2s, color .2s, transform .2s;
+}
+.primary-btn:hover{
+    background-color: var(--header-2);
+    color: var(--marker-color);
+    transform: scale(1.1);
+}
+.primary-btn:active{
+    transform: translateY(-.5rem) scale(1.1);
+}

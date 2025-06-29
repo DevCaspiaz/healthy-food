@@ -1,0 +1,61 @@
+@import "../base.css";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+nav.navigation{
+    padding: 3rem 13.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation__logo h2{
+    display: inline-block;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 100%;
+    letter-spacing: 0%;
+    font-family:"Roboto", sans-serif;
+    color: var(--header-1);
+}
+.navigation__logo h2:first-child{
+    color: var(--marker-color);
+    margin-right: 1rem;
+}
+
+.navigation__bar ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5.6rem;
+}
+.navigation__bar ul li a{
+    color: var(--header-1);
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 130%;
+    letter-spacing: 0%;
+    transition: color .3s;
+    position: relative;
+    padding-bottom: .5rem;
+}
+.navigation__bar ul li a::after{
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: var(--marker-color);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: width .3s;
+}
+
+
+.navigation__bar ul li:hover a:not(.active__link){
+    color: var(--marker-color);
+}
+.navigation__bar ul li a:hover::after{
+    width: 100%;
+}
+
+.navigation__bar ul li .active__link{
+    color: var(--marker-color);
+}

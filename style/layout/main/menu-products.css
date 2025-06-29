@@ -1,0 +1,109 @@
+@import "../../base.css";
+
+section.menu{
+    padding: 10rem 13.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7.1rem;
+}
+.menu__header{
+    justify-items: center;
+}
+.menu__header-owner{
+    font-size: 2rem;
+    line-height: 180%;
+    font-weight: 500;
+    letter-spacing: -2%;
+    color: var(--marker-color);
+    max-width: 45rem;
+    text-align: center;
+}
+.menu__header-title{
+    font-size: 4.8rem;
+    line-height: 140%;
+    letter-spacing: -2%;
+    font-weight: 600;
+    color: var(--header-2);
+    max-width: 75.2rem;
+    text-align: center;
+}
+.menu__header-title .menu__header-title-mark{
+    color: var(--marker-color);
+}
+/* Menu items Header Done! */
+
+
+/* Menu Items  */
+
+.menu__items{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 4rem;
+}
+.menu__items__card{
+    position: relative;
+    flex-grow: 1;
+    flex-shrink: 0;
+    height: 52.1rem;
+    min-width: 30rem;
+    border-radius: 5rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 4rem;
+    filter: brightness(.8) blur(0.06rem);
+    transition: filter .3s, transform .3s;
+    box-shadow: rgb(38, 57, 77) 0 2rem 3rem -1rem;
+}
+
+.menu__items__card:hover{
+    filter: brightness(1) blur(0);
+    transform: scale(1.1);
+}
+
+.menu__items__card-text{
+    position: absolute;
+    bottom: 4rem;
+    text-align: left;
+    opacity: 0;
+    transform: translateY(2rem);
+    transition: opacity .3s, transform 0.3s;
+}
+.menu__items__card-text .products-name{
+    font-weight: 500;
+    color: var(--white);
+    font-size: 2.4rem;
+    line-height: 130%;
+    letter-spacing: 0%;
+}
+.menu__items__card-text .products-cost{
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 130%;
+    letter-spacing: 0%;
+    color: var(--white);
+}
+
+.menu__items__card:hover .menu__items__card-text{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.menu__items__card:active{
+    transform: translateY(-2rem) scale(1.1);
+}
+
+
+.card1{
+    background-image: url("/healty-food/img/products/image1.jpg");
+}
+.card2{
+    background-image: url("/healty-food/img/products/image2.jpg");
+}
+.card3{
+    background-image: url("/healty-food/img/products/image3.jpg");
+}
