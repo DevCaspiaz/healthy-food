@@ -30,7 +30,7 @@
     }
 }
 .hero__text .hero__text-paragraph{
-    font-size: 20px;
+    font-size: 2rem;
     line-height: 160%;
     letter-spacing: -2%;
     font-weight: 500;
@@ -52,7 +52,7 @@
 }
 .hero__text-statics .statics-info__explanation{
     font-weight: 500;
-    font-size: 16px;
+    font-size: 1.6rem;
     line-height: 160%;
     letter-spacing: 0;
     color: var(--paragraph-color);

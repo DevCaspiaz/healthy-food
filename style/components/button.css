@@ -9,7 +9,7 @@
     letter-spacing: 0%;
     padding: 1.65rem 4.7rem;
     background-color: var(--marker-color);
-    border-radius: 100px;
+    border-radius: 10rem;
     border: none;
     cursor: pointer;
     transition: background-color .2s, color .2s, transform .2s;

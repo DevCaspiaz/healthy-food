@@ -9,7 +9,7 @@ nav.navigation{
 }
 .navigation__logo h2{
     display: inline-block;
-    font-size: 24px;
+    font-size: 2.4rem;
     font-weight: 900;
     line-height: 100%;
     letter-spacing: 0%;
@@ -40,7 +40,7 @@ nav.navigation{
 .navigation__bar ul li a::after{
     content: "";
     width: 0;
-    height: 2px;
+    height: .2rem;
     background-color: var(--marker-color);
     position: absolute;
     bottom: 0;
