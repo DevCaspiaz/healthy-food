@@ -5,7 +5,7 @@
     --header-2: #585858;
     --header-1: #575757;
     --paragraph-color: #828282;
-    --white: #ffff;
+    --white: #fff;
     --link-bg: #FFF0DC;
     --icon-bg: #FFE8C8;
     --icon-bg-back: #ffe8c88a;
@@ -26,10 +26,10 @@
 
 html{
     font-size: 62.5%;
+    box-sizing: border-box;
 }
 body{
     font-family: "Poppins", sans-serif;
-    box-sizing: border-box;
 }
 img{
     display: block;

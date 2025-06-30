@@ -15,9 +15,7 @@
     padding: 1.6rem;
     width: max-content;
     background-color: var(--link-bg);
-    a{
-        color: var(--marker-color);
-    }
+    color: var(--marker-color)
 }
 .hero__text .hero__text-title{
     font-size: 7.2rem;

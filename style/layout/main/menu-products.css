@@ -44,6 +44,15 @@ section.menu{
     flex-wrap: wrap;
     gap: 4rem;
 }
+.menu__items .card1{
+    background-image: url("/img/products/image1.jpg");
+}
+.menu__items .card2{
+    background-image: url("/img/products/image2.jpg");
+}
+.menu__items .card3{
+    background-image: url("/img/products/image3.jpg");
+}
 .menu__items__card{
     position: relative;
     flex-grow: 1;
@@ -95,15 +104,4 @@ section.menu{
 
 .menu__items__card:active{
     transform: translateY(-2rem) scale(1.1);
-}
-
-
-.card1{
-    background-image: url("/healty-food/img/products/image1.jpg");
-}
-.card2{
-    background-image: url("/healty-food/img/products/image2.jpg");
-}
-.card3{
-    background-image: url("/healty-food/img/products/image3.jpg");
 }
